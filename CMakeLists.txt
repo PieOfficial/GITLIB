@@ -2,9 +2,10 @@ cmake_minimum_required (VERSION 2.8.11)
 project (HTTPG)
 
 file(GLOB_RECURSE SOURCES src/*.cpp)
-add_executable (httpg ${SOURCES})
-
 add_library(httpg SHARED ${SOURCES})
+#add_executable (httpg ${SOURCES})
+
+
 
 set(EXECUTABLE_OUTPUT_PATH "bin")
 
