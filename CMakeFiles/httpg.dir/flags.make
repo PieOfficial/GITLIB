@@ -6,5 +6,5 @@ CXX_DEFINES = -Dhttpg_EXPORTS
 
 CXX_INCLUDES = @CMakeFiles/httpg.dir/includes_CXX.rsp
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=c++17
 
