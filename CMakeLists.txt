@@ -4,6 +4,8 @@ project (HTTPG)
 file(GLOB_RECURSE SOURCES src/*.cpp)
 add_executable (httpg ${SOURCES})
 
+add_library(httpg SHARED ${SOURCES})
+
 set(EXECUTABLE_OUTPUT_PATH "bin")
 
 find_package (CURL)

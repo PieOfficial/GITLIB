@@ -1,3 +1,0 @@
-C:/Users/Dragon boy/Desktop/gitlib/GITDLL/CMakeFiles/httpg.dir
-C:/Users/Dragon boy/Desktop/gitlib/GITDLL/CMakeFiles/edit_cache.dir
-C:/Users/Dragon boy/Desktop/gitlib/GITDLL/CMakeFiles/rebuild_cache.dir
