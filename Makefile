@@ -128,29 +128,29 @@ httpg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\httpg.dir\build.make CMakeFiles/httpg.dir/build
 .PHONY : httpg/fast
 
-src/httpg.obj: src/httpg.c.obj
+src/httpg.obj: src/httpg.cpp.obj
 .PHONY : src/httpg.obj
 
 # target to build an object file
-src/httpg.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\httpg.dir\build.make CMakeFiles/httpg.dir/src/httpg.c.obj
-.PHONY : src/httpg.c.obj
+src/httpg.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\httpg.dir\build.make CMakeFiles/httpg.dir/src/httpg.cpp.obj
+.PHONY : src/httpg.cpp.obj
 
-src/httpg.i: src/httpg.c.i
+src/httpg.i: src/httpg.cpp.i
 .PHONY : src/httpg.i
 
 # target to preprocess a source file
-src/httpg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\httpg.dir\build.make CMakeFiles/httpg.dir/src/httpg.c.i
-.PHONY : src/httpg.c.i
+src/httpg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\httpg.dir\build.make CMakeFiles/httpg.dir/src/httpg.cpp.i
+.PHONY : src/httpg.cpp.i
 
-src/httpg.s: src/httpg.c.s
+src/httpg.s: src/httpg.cpp.s
 .PHONY : src/httpg.s
 
 # target to generate assembly for a file
-src/httpg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\httpg.dir\build.make CMakeFiles/httpg.dir/src/httpg.c.s
-.PHONY : src/httpg.c.s
+src/httpg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\httpg.dir\build.make CMakeFiles/httpg.dir/src/httpg.cpp.s
+.PHONY : src/httpg.cpp.s
 
 # Help Target
 help:
