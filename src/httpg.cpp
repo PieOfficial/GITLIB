@@ -1,3 +1,14 @@
+/**
+ * @file httpg.cpp
+ * @author Animal
+ * @brief 
+ * @version 0.1
+ * @date 2023-01-27
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -6,6 +17,7 @@
 #include <Windows.h>
 #include <iostream>
 #include <string>
+
 
 size_t writefile(void *ptr, size_t size, size_t n, FILE *file)
 {
@@ -16,11 +28,11 @@ size_t writefile(void *ptr, size_t size, size_t n, FILE *file)
 #ifdef WIN32
 extern "C"
 {
+
 	__declspec (dllexport) void download(char url[])
 	{
-			CURL *curl = curl_easy_init();
+	CURL *curl = curl_easy_init();
 	CURLcode ccode;
-	//char url[] = url;
 	FILE *outputfile;
 	if (curl)
 	{
