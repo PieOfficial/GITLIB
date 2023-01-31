@@ -9,14 +9,17 @@
  * 
  */
 
+#include <iostream>
+#include <string>
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <curl/curl.h>
 #include <conio.h>
+
+
+#include <curl/curl.h>
 #include <Windows.h>
-#include <iostream>
-#include <string>
 
 
 size_t writefile(void *ptr, size_t size, size_t n, FILE *file)
@@ -25,7 +28,7 @@ size_t writefile(void *ptr, size_t size, size_t n, FILE *file)
 	return written;
 }
 
-#ifdef WIN32
+#ifdef _WIN32 //OLD WIN32
 extern "C"
 {
 
